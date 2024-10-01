@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-one{
+    background-color: black;
+    min-height: 43px;
+    max-height: 100px;
+    color: white;
+}
+.info1{
+    column-gap: 25px;
+    font-size:13px;
+    padding-top: 11px;
+   flex-wrap: wrap;
+}
+.naavi{
+    background-color: transparent;
+    
+}
+/* .scrolled{
+    background-color:black;
+    position: sticky !important;
+        
+    
+}  */
+.info2{
+    column-gap: 30px;
+}
+.navbar-brand{
+    margin-top: -31px;
+}
+.sec-two{
+    background-image: url(./img/beautiful-mountain-landscape.jpg);
+    min-height: 990px;
+    max-height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    background-size: cover;
+    z-index: 0;
+}
+.disp{
+    padding-left: 70px !important;
+margin-top: -36px !important;
+}
+.size{
+    font-size: 15px;
+}
+.buttt{
+    background-color:#1ecb15 !important;
+    width: 100px;
+}
+.dropdown-menu{
+    display: none !important;
+    line-height: 30px !important;  
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    opacity: 1 !important;
+    transition: 5s;
+}
+.para{
+    margin-top: 71px;
+}
+.focus-in-expand-fwd {
+	-webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-800px);
+              transform: translateZ(-800px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-800px);
+              transform: translateZ(-800px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+.naavi{
+    z-index:1;
+    position: sticky;
+}
+.vehic{
+    gap: 15px;
+}
+.box{
+    padding: 20px 8px;
+    height: 110px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#1ecb15;
+    transition: 0.5s;
+    cursor: pointer; 
+    width: 109px;
+}
+.box:hover{
+    background-color:green;
+}
+.for{
+    column-gap: 30px;
+    width: 100%;
+    min-height: 270px;
+    max-height: max-content;
+    padding-top: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+}
+.fori{
+    line-height: 40px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    height:max-content;
+}
+.area{
+    height: 33px;
+    border-radius: 3px;
+    border: solid 1px black;
+    min-width: 240px;
+    max-width: fit-content;
+    padding-left: 6px;
+}
+.butt2{
+    right: 30px;
+    bottom: 30px;
+    background-color:#1ecb15 !important;
+    border: none !important;
+}
+ul{
+    list-style-type: none;
+}
+.box2{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    text-align: center ;
+    padding-top: 12px;
+    border-radius: 5px;
+}
+.line{
+    width: 1px;
+    height:235px;
+    background-color: #1ecb15;
+    transform: rotate(90deg);
+    margin-left: 117px;
+}
+.last{
+    margin-top: 80px;
+}
+.last-pad{
+    padding-top: 70px;
+}
+.marq{
+    column-gap: 100px;
+    font-size: 60px;
+    padding-top: 19px;
+}
+.line3{
+    height: 90px;
+    width: 3px;
+    background-color: #1ecb15;
+    transform: rotate(90deg);
+}
+.flow{
+    column-gap: 100px;
+    color: #1ecb15; 
+}
+.sec-3{
+    background-color: black;
+    border-top: 1px solid white;
+    height: 140px;
+}
+.secbutt{
+    background-color:rgba(3, 27, 78, .05) !important;
+    color:#1ecb15 !important;
+    border:none !important;
+}
+.car1{
+    text-align: center;
+}
+.gana{
+    width: 100%;
+    margin-left: 25px;
+    margin-top: -28px;
+}
+.mov{
+    margin-top: 100px;
+
+}
+.sec-five{
+    background-image: url(./img/flat-lay-vegetables-arrangement-dark-background-with-copy-space.jpg);
+    backdrop-filter:blur(20px);
+    min-height: 100vh;
+    max-height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.twopa{
+    gap: 40px;
+    padding-top: 70px;
+    height: 100%;
+    display: flex;
+    
+}
+.twopa1{
+    height: 100%;
+}
+.box3{
+    text-align: center;
+    height: 130px;
+    width: 250px;
+    border-radius: 10px;
+    background: black;
+    padding: 15px;
+}
+.threepa{
+    gap: 30px;
+    justify-content: center;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+.six-sec{
+    text-align: center;
+}
+.pic{
+    gap:50px;
+    flex-wrap: wrap;
+    padding-top: 20px;  
+}
+.pic-1{
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+    width: 330px;
+}
+.pic-1 img{
+    border-radius: 5px;
+    transition: 1s;
+    min-height: fit-content;
+    max-height: 195px !important;
+    width: 100%;}
+.car-part{
+    gap: 20px;
+}
+.sec-six{
+    flex-wrap: wrap;
+}
+body{
+    overflow-x: hidden;
+}
+.sec-seven{
+    background-image: url(./img/green-leaf-with-veins-macro-photography.jpg);
+    max-height:max-content;
+    min-height:73vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+.eight-text{
+    text-align: center;
+}
+.blog-1{
+    position: relative;
+}
+.blog-1 img{
+ min-height:fit-content;
+ max-height: 21 0px;
+ border-radius: 10px;
+width: 100%;
+}
+.green-date{
+    background-color: #1ecb15;
+    color:white;
+    border-radius: 4px;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    padding:2px;
+    text-align: center;
+}
+.exp{
+    border-radius: 9px;
+    width: 90%;
+    padding: 13px;
+    background-color: white;
+    top: 80%;
+    left:5%;
+    border-bottom: #1ecb15 2px solid;
+}
+.some{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-top: 8px;
+}
+.parti{
+    height: 35rem;
+    padding-top: 50px;
+}
+.photo-1 ,.photo-2 ,.photo-3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    min-height: 600px;
+    border-radius: 12px;
+    transition: 1s;
+    background-image: url('./img/farmer-standing-rice-field-with-tablet.jpg');
+    padding: 15px;
+   position: relative;
+}
+.img-overlay {
+   
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.photo-2{
+    background-image: url(./img/young-farmers-are-collecting-orange.jpg);
+   backdrop-filter: blur(20px);
+}
+.photo-3{
+    background-image: url(./img/young-woman-controlling-plantation.jpg);
+}
+.ten-text{
+    text-align: center;
+}
+.name{
+    padding:21px 1.25rem !important;
+    background-color: transparent !important;
+   
+}
+.sec-eleven{
+    background-color: #268921;
+    padding: 70px 0;
+    min-height: 307px;
+    max-height: max-content;
+}
+.call-us{
+    background-color: #0a5e05;
+    text-align: center;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+footer{
+    background-color: black;
+    padding: 70px;
+}
+.last-one li{
+text-decoration: none;
+list-style: none;
+transition: 0.7s;
+cursor: pointer;
+line-height: 30px;
+}
+.last-one li:hover{
+    color:green;
+}
+.imglast{
+    background-color: #4f4f4f;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.imglast:hover{
+    background-color:green;
+}
+.end{
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.socialimg{
+    padding-left: 117px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .medialine{
+    display: none !important;
+  }
+  .twopa{
+    display:block!important;
+    gap: 40px !important;
+  }
+  .header .info1{
+    display: none !important;
+  }
+  .info2{
+    gap: 50px;
+  }
+  .socialimg{
+    padding-left:0px;
+}
+ .disp{
+    text-align: center;
+    padding-left: 0 !important;
+    background-color: #fffbfb3a;
+    border-radius: 12px;
+    margin-top: 7px !important;
+ }
+.twopa1{
+    width: 0 !important;
+}
+.dropdown:active .dropdown-menu{
+    display: block !important;
+    opacity: 1 !important;
+    transition: 5s;
+}
+  }
+  
